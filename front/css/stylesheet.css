@@ -1,6 +1,55 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../font/ProximaNova/ProximaNova-Regular.otf);
+    }
 
 body {
-        background-color: #ffffff;
+        background-color: #FFF;
         font-family: 'Proxima Nova';
-        line-height: 1;
+        margin: 0;
+        padding: 0;
     }
+
+header  {
+    height: 70px;
+    display: flex;
+    background-color: #111;
+    color: #FFF;
+    align-items: center;
+}
+
+h1  {
+    width: 180px;
+    font-size: large;
+    padding-left: 5px;
+}
+
+.search-button   {
+    padding-right: 10px;
+}
+
+.sign-in  {
+    background-color: #111;
+    color: #FFF;
+    border-radius: 5px;
+    border-color: #FFF;
+    font-size: large;
+    width: 80px;
+}
+
+nav.top-nav {
+    height: 30px;
+    display: flex;
+    background-color: #111;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+nav.top-nav > a   {
+    color: #FFF;
+    text-decoration: none;
+}
+
+h2  {
+    text-decoration: underline;
+}

@@ -16,7 +16,25 @@ body {
     }
 body::-webkit-scrollbar {
     display: none;
+    width: 0;
 }
+
+h1 {
+    width: 180px;
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+h2 {
+    text-decoration: underline 2px;
+    margin-left: 15px;
+}
+
+h3 {
+    height: 10px;
+    margin-top: 0;
+}
+
 
 header {
     height: 70px;
@@ -31,13 +49,6 @@ header > img {
     margin-left: 5px;
 }
 
-
-h1 {
-    width: 180px;
-    font-size: 22px;
-    padding-left: 5px;
-}
-
 .search-button {
     padding-right: 0px;
 }
@@ -49,7 +60,10 @@ h1 {
     border-radius: 5px;
     border-color: #FFF;
     font-size: large;
-    width: 80px;
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 nav.top-nav {
@@ -65,11 +79,6 @@ nav.top-nav > a {
     text-decoration: none;
 }
 
-h2 {
-    text-decoration: underline 2px;
-    margin-left: 15px;
-}
-
 .container-1 {
     display: flex;
     margin-bottom: 25px;
@@ -82,9 +91,8 @@ h2 {
     margin-left: 5px;
 }
 
-h3 {
-    height: 10px;
-    margin-top: 0;
+.container-1-txt > p {
+    color: #333333;
 }
 
 .poster {
@@ -108,12 +116,50 @@ h3 {
 
 .nav-notable > a {
     text-decoration: none;
+    color: #0047FF;
 }
 
 .green-score {
+    background-color: #48B80F;
+    color: #FFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
 
-    background-color: greenyellow;
-    max-width: 30px;
+.yellow-score {
+    background-color: #FFB300;
+    color: #FFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.red-score {
+    background-color: #FF2929;
+    color: #FFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.flexbox-container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex-direction: column;
+    width: 280px;
+}
+
+.item > p {
+    font-size: 15px;
+    color: #333333;
 }
 
 button {
@@ -121,8 +167,8 @@ button {
     color: #FFF;
     border-color: #111;
     border-radius: 8px;
-    width: 50%;
-    height: 35px;
+    width: 80%;
+    height: 45px;
     text-transform: capitalize;
     font-size: large;
 }
@@ -133,7 +179,7 @@ button {
 }
 
 footer {
-    background-color: #A0A0A0;
+    background-color: #575757;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +195,7 @@ footer > img {
 nav.bottom-nav {
     height: 50px;
     display: flex;
-    background-color: #A0A0A0;
+    background-color: #575757;
     color: #FFF;
     justify-content: space-around;
 }

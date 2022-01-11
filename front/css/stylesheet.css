@@ -10,14 +10,14 @@ body {
         font-family: 'Proxima Nova';
         margin: 0;
         padding: 0;
-        overflow-y: scroll;
+        /* overflow-y: scroll;
         -ms-overflow-style: none;
-        scrollbar-width: none;
+        scrollbar-width: none; */
     }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
     width: 0;
-}
+} */
 
 h1 {
     width: 180px;
@@ -126,6 +126,7 @@ nav.top-nav > a {
     width: 50px;
     border-radius: 10px;
     text-align: center;
+    margin-right: 15px;
 }
 
 .yellow-score {
@@ -135,6 +136,7 @@ nav.top-nav > a {
     width: 50px;
     border-radius: 10px;
     text-align: center;
+    margin-right: 15px;
 }
 
 .red-score {
@@ -144,6 +146,7 @@ nav.top-nav > a {
     width: 50px;
     border-radius: 10px;
     text-align: center;
+    margin-right: 15px;
 }
 
 
@@ -154,7 +157,9 @@ nav.top-nav > a {
 
 .item {
     flex-direction: column;
-    width: 280px;
+    /* width: 280px; */
+    width: 80%;
+    margin-left: 15px;
 }
 
 .item > p {

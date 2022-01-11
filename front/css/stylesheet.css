@@ -10,25 +10,26 @@ body {
         padding: 0;
     }
 
-header  {
+header {
     height: 70px;
     display: flex;
     background-color: #111;
     color: #FFF;
     align-items: center;
+    justify-content: space-between;
 }
 
-h1  {
+h1 {
     width: 180px;
     font-size: large;
     padding-left: 5px;
 }
 
-.search-button   {
+.search-button {
     padding-right: 10px;
 }
 
-.sign-in  {
+.sign-in {
     background-color: #111;
     color: #FFF;
     border-radius: 5px;
@@ -45,11 +46,46 @@ nav.top-nav {
     justify-content: space-around;
 }
 
-nav.top-nav > a   {
+nav.top-nav > a {
     color: #FFF;
     text-decoration: none;
 }
 
-h2  {
+h2 {
     text-decoration: underline;
+}
+
+.container-1 {
+    display: flex;
+    margin-bottom: 25px;
+    /* flex-wrap: wrap; */
+}
+
+.container-1-txt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    height: 10px;
+    margin-top: 0;
+}
+
+.poster {
+    border-radius: 10px;
+}
+
+.nav-notable {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-notable > a {
+    text-decoration: none;
+}
+
+.green-score {
+
+    background-color: greenyellow;
+    max-width: 30px;
 }

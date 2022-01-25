@@ -9,10 +9,18 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo/logoR&C.png" alt="logo-R&C" height="50px">
-        <h1>Review&Critic</h1>
-        <img class="search-button" src="./img/buttons/seachButton.png" alt="search-button" height="20px">
-        <button class="sign-in" type="button">Sign In</button>
+        <div class="logo-title">
+            <img src="./img/logo/logoR&C.png" alt="logo-R&C" height="50px">
+            <h1>Review&Critic</h1>
+        </div>
+        <div class="search-signup">
+            <form action="/form/submit" method="GET"> 
+                <input type="text" maxlength="20" class="searchbar" placeholder="Search here...">
+                <!-- <input type="submit" name="submit" class="submit" value="Search"> -->
+            </form>
+            <img class="search-button" src="./img/buttons/seachButton.png" alt="search-button" height="20px">
+            <button class="sign-in" type="button">Sign In</button>
+        </div>
     </header>
 
     <nav class="top-nav">
@@ -86,7 +94,7 @@
             <img src="./img/posters/1639463040_3_3.jpg" alt="film-poster" height="100px" class="poster">
             <div class="container-1-txt">
                 <h3>Spider-Man: No Way Home</h3>
-                <p>Film descriptions Lorem ipsum dolor sit amet.</p>
+                <p>Film descriptions Lorem ipsum dolor sit amet</p>
             </div>
         </div>
 
@@ -133,7 +141,7 @@
         <section class="flexbox-big-container"> 
            <section class="row-wrap1">
             <!-- Game Review Score -->
-                <section>
+                <section class="gameScore">
                     <h2>Games Review Score</h2>
                     
                     <div class="flexbox-container-2">
@@ -163,7 +171,7 @@
                 </section>
 
                 <!-- Movies Review Score -->
-                <section>
+                <section class="movieScore">
                     <h2>Movies Review Score</h2>
 
                     <div class="flexbox-container-2">
@@ -195,7 +203,7 @@
 
             <section class="row-wrap2">
                 <!-- TV Show Score Review -->
-                <section>
+                <section class="tvScore">
                     <h2>TV Show Review Score</h2>
 
                     <div class="flexbox-container-2">
@@ -225,7 +233,7 @@
                 </section>
 
                 <!-- Music Score Review -->
-                <section>
+                <section class="musicScore">
                     <h2>Music Review Score</h2>
 
                     <div class="flexbox-container-2">
@@ -261,15 +269,16 @@
         <div class="logo-footer">
             <img src="./img/logo/logoR&C.png" alt="logo-R&C" height="60px" width="60px">
         </div>
-        <div class="logo-social">
-            <img src="" alt="logo-github" height="30px" width="30px">
-        </div>
 
         <nav class="bottom-nav">
             <a href="#">About</a>
             <a href="#">Terms of Use</a>
             <a href="#">Contact</a>
         </nav>
+
+        <div class="logo-social">
+            <a href="https://github.com/Vikarious/Projet-Fil-Rouge"><img src="./img/socialLogos/GitHub/GitHub-Mark-120px-plus.png" alt="logo-github" height="30px" width="30px"></a>
+        </div>
     </footer>
 
 </body>

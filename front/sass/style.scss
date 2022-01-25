@@ -36,8 +36,19 @@ header {
     justify-content: space-between;
 }
 
-header > img {
-    margin-left: 5px;
+.logo-title {
+    display: flex;
+    margin-left: 4px;
+}
+
+.search-signup {
+    display: flex;
+    margin-right: 4px;
+    align-items: center;
+}
+
+.searchbar {
+    opacity: 0;
 }
 
 .search-button {
@@ -47,7 +58,7 @@ header > img {
 .sign-in {
     background-color: #111;
     color: #FFF;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 5px;
     border-color: #FFF;
     font-size: large;
@@ -130,7 +141,7 @@ nav.top-nav > ul > li > a {
     top: 30px;
     // right: 0px;
     left: 0;
-    // display: none;
+    display: none;
     opacity: 0;
     transition: opacity 0.5s ease; 
     width: 200px;
@@ -153,7 +164,7 @@ nav.top-nav > ul > li > a {
     top: 30px;
     right: 0;
     // left: 0;
-    // display: none;
+    display: none;
     opacity: 0;
     transition: opacity 0.5s ease; 
     width: 200px;
@@ -284,10 +295,8 @@ button {
 
 footer {
     background-color: #575757;
-    // display: flex;
+    display: flex;
     flex-direction: column;
-    // align-items: center;
-    height: 80px;
     margin-top: 25px;
 }
 
@@ -313,6 +322,7 @@ nav.bottom-nav > a {
 }
 
 .logo-social {
+    // background-color: #575757;
     display: flex;
     justify-content: center;
 }
@@ -343,4 +353,29 @@ nav.bottom-nav > a {
         justify-content: space-evenly;
     }
 
+    .musicScore, .tvScore, .movieScore, .gameScore {
+        width: 50%;
+    }
+
+    .container-1 {
+        width: 100%;
+        img {
+            width: 180px;
+            height: 180px;
+            margin-right: 10%;
+        }
+    }
+
+    .searchbar {
+        background-color: #111;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: #FFF;
+        width: 300px;
+        margin-right: 5px;
+        color: #FFF;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
 }

@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
     <title>Review & Critic - Reviews of Movies, TV show, Games, Musics</title>
 </head>
+
 <body>
     <header>
         <div class="logo-title">
@@ -86,12 +88,27 @@
             </li>
         </ul>
     </nav>
+    
+    <!-- video-lightbox -->
+    <div id="lightbox">
+        <div class="box">
+            <div class="topbar">
+                <button id="hide_video">Close</button>
+            </div>
+            <div id="wrapper">
+                <div id="ytplayer"></div>
+            </div>
+        </div>
+    </div>
 
     <main>
         <!-- Editor's Pick -->
         <h2>Editor's Pick</h2>
         <div class="container-1">
-            <img src="./img/posters/1639463040_3_3.jpg" alt="film-poster" height="100px" class="poster">
+            <img class="show_video poster" 
+                data-video-id="JfVOs4VSpmA"
+                alt="click to see video" 
+                src="https://img.youtube.com/vi/JfVOs4VSpmA/mqdefault.jpg"/>
             <div class="container-1-txt">
                 <h3>Spider-Man: No Way Home</h3>
                 <p>Film descriptions Lorem ipsum dolor sit amet</p>
@@ -99,7 +116,10 @@
         </div>
 
         <div class="container-1">
-            <img src="./img/posters/1639163423_2_1.jpg" alt="film-poster" height="100px" class="poster">
+            <img class="show_video poster" 
+                data-video-id="TJFVV2L8GKs"
+                alt="click to see video" 
+                src="https://img.youtube.com/vi/TJFVV2L8GKs/mqdefault.jpg"/>
             <div class="container-1-txt">
                 <h3>The Witcher</h3>
                 <p>Film descriptions Lorem ipsum dolor sit amet.</p>
@@ -107,9 +127,12 @@
         </div>
 
         <div class="container-1">
-            <img src="./img/posters/376a2f5ac21501f54636dff02d720d44-250h.jpg" alt="film-poster" height="100px" width="100px" class="poster">
+            <img class="show_video poster" 
+                data-video-id="E3Huy2cdih0"
+                alt="click to see video" 
+                src="https://img.youtube.com/vi/E3Huy2cdih0/mqdefault.jpg"/>
             <div class="container-1-txt">
-                <h3>Film Title</h3>
+                <h3>Elden Ring</h3>
                 <p>Film descriptions Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
@@ -167,7 +190,7 @@
                         </div>
                         <div class="red-score"><p>15</p></div>
                     </div>
-                    <div class="button-view"><button type="button">View More</button></div>
+                    <div class="button-view"><button class="blackButton" type="button">View More</button></div>
                 </section>
 
                 <!-- Movies Review Score -->
@@ -197,7 +220,7 @@
                         </div>
                         <div class="red-score"><p>15</p></div>
                     </div>
-                    <div class="button-view"><button type="button">View More</button></div>
+                    <div class="button-view"><button class="blackButton" type="button">View More</button></div>
                  </section>
             </section>
 
@@ -229,7 +252,7 @@
                         </div>
                         <div class="red-score"><p>15</p></div>
                     </div>
-                    <div class="button-view"><button type="button">View More</button></div>
+                    <div class="button-view"><button class="blackButton" type="button">View More</button></div>
                 </section>
 
                 <!-- Music Score Review -->
@@ -259,7 +282,7 @@
                         </div>
                         <div class="red-score"><p>15</p></div>
                     </div>
-                    <div class="button-view"><button type="button">View More</button></div>
+                    <div class="button-view"><button class="blackButton" type="button">View More</button></div>
                 </section>
             </section>
         </section>
@@ -277,7 +300,7 @@
         </nav>
 
         <div class="logo-social">
-            <a href="https://github.com/Vikarious/Projet-Fil-Rouge"><img src="./img/socialLogos/GitHub/GitHub-Mark-120px-plus.png" alt="logo-github" height="30px" width="30px"></a>
+            <a href="https://github.com/Vikarious/Projet-Fil-Rouge" target="_blank"><img src="./img/socialLogos/GitHub/GitHub-Mark-120px-plus.png" alt="logo-github" height="30px" width="30px"></a>
         </div>
     </footer>
 

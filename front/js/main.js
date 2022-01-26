@@ -1,4 +1,3 @@
-
 //////////// Load, show and hide a video in a lightbox
 
 const hideVideoElement = document.getElementById('hide_video');
@@ -27,4 +26,3 @@ function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {width: '848', height: '480',} );
 }
 
-////////////

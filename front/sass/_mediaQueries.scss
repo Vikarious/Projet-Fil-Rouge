@@ -1,0 +1,52 @@
+@media screen and (min-width: 800px) {
+    main {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .flexbox-big-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-wrap1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .row-wrap2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .musicScore, .tvScore, .movieScore, .gameScore {
+        width: 50%;
+    }
+
+    .container-1 {
+        width: 100%;
+        img {
+            width: 180px;
+            height: 180px;
+            margin-right: 10%;
+        }
+    }
+
+    .searchbar {
+        display: flex;
+        background-color: #111;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: #FFF;
+        width: 300px;
+        margin-right: 5px;
+        color: #FFF;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+}

@@ -1,0 +1,33 @@
+footer {
+    background-color: #575757;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav.bottom-nav {
+    height: 50px;
+    display: flex;
+    background-color: #575757;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+nav.bottom-nav > a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo-social {
+    // background-color: #575757;
+    display: flex;
+    justify-content: center;
+}
